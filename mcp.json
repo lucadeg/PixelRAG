@@ -1,0 +1,6 @@
+{
+  "name": "pixelrag-mcp",
+  "command": "python",
+  "args": ["C:/Users/Deglu/.hermes/tools/PixelRAG/mcp_server.py"],
+  "env": {}
+}
