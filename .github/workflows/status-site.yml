@@ -1,11 +1,8 @@
+
 name: Status Site CI
 on:
-  push:
-    branches: [main]
-    paths:
-      - "status-site/**"
-      - ".github/workflows/status-site.yml"
   workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: write
   pages: write

@@ -1,10 +1,8 @@
+
 name: Summary CI
 on:
-  schedule:
-    # Every 10 min so history/summary.json (the data source for the static
-    # status page) stays near-real-time, not just daily.
-    - cron: "*/10 * * * *"
   workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: write
 jobs:

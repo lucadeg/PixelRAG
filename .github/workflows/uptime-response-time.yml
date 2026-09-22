@@ -1,8 +1,8 @@
+
 name: Response Time CI
 on:
-  schedule:
-    - cron: "0 23 * * *"
   workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: write
 jobs:
